@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="hello_andy">Hello Andy!</string>
+    <string name="first_activity">First Activity</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="text_content_activity">This is the your name: </string>
+    <string name="click_me">Click me!</string>
+    <string name="write_your_name">Escribe tu nombre</string>
+    <string name="parameter_name">name</string>
+</resources>

@@ -2,4 +2,6 @@
     <string name="app_name">Loaders</string>
     <string name="title_loader">Mi Loader</string>
     <string name="clickme">Click Me!</string>
+    <string name="click_toast_string">"Click: "</string>
+    <string name="number">"numero: "</string>
 </resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UserForm</string>
+    <string name="ingress_your_name">Ingresa tu nombre</string>
+    <string name="name">Nombre</string>
+    <string name="mail">Mail</string>
+    <string name="ingress_your_mail">Ingresa tu correo</string>
+    <string name="ingress_your_twitter">Ingresa tu usuario de Twitter</string>
+    <string name="twitter">Twitter</string>
+    <string name="ingress_your_birthday">Ingresa tu fecha de nacimiento</string>
+    <string name="next">Continuar</string>
+    <string name="date">datebirthday</string>
+    <string name="date_string">Fecha de nacimiento</string>
+    <string name="send_mail">Enviar por correo</string>
+</resources>

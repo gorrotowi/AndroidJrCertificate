@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingress_your_name"
+                android:textSize="@dimen/header" />
+
+            <EditText
+                android:id="@+id/edtxName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:textSize="@dimen/edtx_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingress_your_mail"
+                android:textSize="@dimen/header" />
+
+            <EditText
+                android:id="@+id/edtxMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mail"
+                android:textSize="@dimen/edtx_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingress_your_twitter"
+                android:textSize="@dimen/header" />
+
+            <EditText
+                android:id="@+id/edtxTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/twitter"
+                android:textSize="@dimen/edtx_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingress_your_birthday"
+                android:textSize="@dimen/header" />
+
+            <DatePicker
+                android:id="@+id/dtPicker"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal">
+
+            </DatePicker>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sendData"
+                android:text="@string/next" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

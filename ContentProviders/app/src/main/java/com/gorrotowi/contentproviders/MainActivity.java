@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             String detail = getString(R.string.number) + " " + numberS + "\n"
-                    + getString(R.string.date) + " " + DateFormat.format("dd/MM/YY k:mm:ss", dateS) + "\n"
+                    + getString(R.string.date) + " " + DateFormat.format("dd/MM/yyyy k:mm:ss", dateS) + "\n"
                     + getString(R.string.type) + " " + tipollamada + "\n"
                     + getString(R.string.duration) + " " + durationS + "\n"
                     + getString(R.string.name) + " " + nameS + "\n\n";

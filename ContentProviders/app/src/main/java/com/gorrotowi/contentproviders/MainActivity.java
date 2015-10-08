@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             int name = cursor.getColumnIndex(CallLog.Calls.CACHED_NAME);
 
             String numberS = cursor.getString(number);
-            Long dateS = cursor.getLong(date);
+            long dateS = cursor.getLong(date);
             String typeS = cursor.getString(type);
             String durationS = cursor.getString(duration);
             String nameS = cursor.getString(name);

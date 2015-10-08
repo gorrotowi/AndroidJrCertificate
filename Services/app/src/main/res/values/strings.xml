@@ -3,4 +3,6 @@
     <string name="title_servicios">Mis Servicios</string>
     <string name="stop">Detener</string>
     <string name="start">Iniciar</string>
+    <string name="message_start">Servicio iniciado</string>
+    <string name="message_stop">Servicio detenido</string>
 </resources>

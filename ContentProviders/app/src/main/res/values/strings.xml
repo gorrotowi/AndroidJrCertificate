@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ContentProviders</string>
+    <string name="title_llamadas">Llamadas</string>
+    <string name="recient_calls">Llamadas recientes</string>
+    <string name="demo_text">Resultado Log Llamadas</string>
+    <string name="content_provider_calls">content://call_log/calls</string>
+    <string name="entrada">Entrada</string>
+    <string name="salida">Salida</string>
+    <string name="perdida">Perdida</string>
+    <string name="number">Numero: </string>
+    <string name="date">Fecha: </string>
+    <string name="duration">Duracion: </string>
+    <string name="type">Tipo Llamada: </string>
+    <string name="name">Nombre: </string>
+    <string name="indefinida">Indefinida</string>
+</resources>

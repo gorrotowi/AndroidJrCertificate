@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DataBases</string>
+    <string name="name_hint">Nombre</string>
+    <string name="hint_twitter">Twitter</string>
+    <string name="hint_mail">Email</string>
+    <string name="save">Guardar</string>
+    <string name="show">Mostrar</string>
+    <string name="registers">Registros</string>
+    <string name="success_message">Registro guardado exitosamente!</string>
+    <string name="hint_phone">Telefono</string>
+</resources>
